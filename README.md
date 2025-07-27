@@ -1,4 +1,3 @@
-﻿# BANKING-SYSTEM
 # 🏦 Banking System (Java + JDBC + MySQL)
 
 This is a console-based Java application that simulates basic banking operations using JDBC to connect to a MySQL database.
@@ -37,34 +36,35 @@ CREATE TABLE accounts (
     name VARCHAR(100),
     balance DOUBLE
 );
+```
 
-How to Run This Project
+---
 
-Clone this repository or download the ZIP
+## 🚀 How to Run This Project
 
-Download the MySQL JDBC driver from:
-https://dev.mysql.com/downloads/connector/j/
+1. Clone this repository or download the ZIP
+2. Download the MySQL JDBC driver from:  
+   https://dev.mysql.com/downloads/connector/j/
+3. Place the `.jar` file inside the `lib/` folder
+4. Compile using:
+   ```bash
+   javac -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem.java
+   ```
+5. Run using:
+   ```bash
+   java -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem
+   ```
 
-Place the .jar file inside the lib/ folder
+---
 
-Compile using:
+## 📌 Notes
 
-bash
-Copy
-Edit
-javac -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem.java
-Run using:
+- Database credentials must match your local setup (edit inside the `.java` file).
+- This project is console-based (no GUI).
 
-bash
-Copy
-Edit
-java -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem
-📌 Notes
-Database credentials must match your local setup (edit inside the .java file).
+---
 
-This project is console-based (no GUI).
+## 👨‍💻 Author
 
-👨‍💻 Author
-Name: Aditya
-
-Internship Project: Cantilever Java Internship (3rd Year BTech IT)
+- Name: Aditya  
+- Internship Project: Cantilever Java Internship (3rd Year BTech IT)
