@@ -37,3 +37,34 @@ CREATE TABLE accounts (
     name VARCHAR(100),
     balance DOUBLE
 );
+
+How to Run This Project
+
+Clone this repository or download the ZIP
+
+Download the MySQL JDBC driver from:
+https://dev.mysql.com/downloads/connector/j/
+
+Place the .jar file inside the lib/ folder
+
+Compile using:
+
+bash
+Copy
+Edit
+javac -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem.java
+Run using:
+
+bash
+Copy
+Edit
+java -cp ".;lib/mysql-connector-j-9.4.0.jar" BankingSystem
+📌 Notes
+Database credentials must match your local setup (edit inside the .java file).
+
+This project is console-based (no GUI).
+
+👨‍💻 Author
+Name: Aditya
+
+Internship Project: Cantilever Java Internship (3rd Year BTech IT)
